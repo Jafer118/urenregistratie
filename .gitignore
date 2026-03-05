@@ -1,1 +1,25 @@
+# --- PHP/Composer Standaard ---
+/vendor/
+composer.phar
+*.phpunit.result.cache
 
+# --- Omgevingsvariabelen (Wachtwoorden/Keys) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs en Cache ---
+*.log
+/var/cache/
+/var/log/
+
+# --- Besturingssysteem rotzooi ---
+.DS_Store
+Thumbs.db
+
+# --- Editor instellingen ---
+.vscode/
+.idea/
+*.swp
